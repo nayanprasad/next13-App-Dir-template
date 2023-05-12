@@ -1,9 +1,30 @@
 import React from "react";
 
-function Page() 
-{
+
+interface User {
+    id: number;
+    name: string;
+}
+
+async function getData(): Promise<User[]> {
+    const res = await fetch("https://jsonplaceholder.typicode.com/users");
+    if (!res.ok) {
+        throw new Error("Failed to fetch data");
+    }
+    return res.json();
+}
+
+async function Page() {
+
+    const users = await getData();
+
     return (
-        <div>hi</div>
+        <div>
+
+            {users.map((user) => (
+                <div key={user.id}>{user.name}</div>
+            ))}
+        </div>
     );
 }
 
