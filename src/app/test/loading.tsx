@@ -3,7 +3,7 @@ import React from "react";
 function Loading() {
     return (
         <div>
-            test page loaing
+            test page loading...
         </div>
     );
 }
