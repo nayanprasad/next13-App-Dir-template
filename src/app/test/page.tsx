@@ -1,4 +1,5 @@
 import React from "react";
+import Headertest from "@/ui/Headertest";
 
 
 interface User {
@@ -20,6 +21,8 @@ async function Page() {
 
     return (
         <div>
+
+            <Headertest/>
 
             {users.map((user) => (
                 <div key={user.id}>{user.name}</div>
