@@ -53,6 +53,7 @@
     "dist/",
     "public/",
     "out/",
-    "coverage/"
+    "coverage/",
+    ".next/"
   ]
 }
