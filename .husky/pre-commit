@@ -2,4 +2,4 @@
 . "$(dirname -- "$0")/_/husky.sh"
 . "$(dirname -- "$0")/common.sh"
 
-FORCE_COLOR=1 yarn run lint-staged --allow-empty
+FORCE_COLOR=1 pnpm run lint-staged --allow-empty
