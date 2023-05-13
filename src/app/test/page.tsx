@@ -1,5 +1,5 @@
 import React from "react";
-import Headertest from "@/ui/Headertest";
+import Headertest from "@/components/Headertest";
 
 
 interface User {
@@ -8,7 +8,7 @@ interface User {
 }
 
 async function getData(): Promise<User[]> {
-    const res = await fetch("https://jsonplaceholder.typicode.com/users");
+    const res = await fetch("https://jsonplaceholder.typicode.com/usersadsf");
     if (!res.ok) {
         throw new Error("Failed to fetch data");
     }

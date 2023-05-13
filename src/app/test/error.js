@@ -1,11 +1,13 @@
+"use client";
+
 import React from "react";
 
-const Loading = () => {
+const Error = () => {
     return (
         <div className="text-amber-500">
-            <p>Loading...</p>
+            <p>error</p>
         </div>
     );
 };
 
-export default Loading;
+export default Error;
