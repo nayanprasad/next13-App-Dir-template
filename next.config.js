@@ -1,4 +1,15 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
+    reactStrictMode: true, //
+    eslint: {
+        dirs: ["src"],
 
-module.exports = nextConfig
+    },
+    images: {
+        domains: [],
+    },
+
+
+};
+
+module.exports = nextConfig;
