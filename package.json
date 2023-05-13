@@ -9,7 +9,9 @@
     "lint": "next lint",
     "postinstall": "husky install",
     "lint-staged": "lint-staged",
-    "fix": "eslint --fix ."
+    "fix": "eslint --fix .",
+    "test": "cypress open",
+    "cypress:open": "cypress open"
   },
   "git": {
     "pre-commit": "lint-staged"
@@ -36,10 +38,11 @@
     "prettier": "^2.8.8",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "tailwindcss": "3.3.2",
-    "typescript": "5.0.4"
+    "tailwindcss": "3.3.2"
   },
   "devDependencies": {
-    "husky": "^8.0.3"
+    "cypress": "^12.12.0",
+    "husky": "^8.0.3",
+    "typescript": "5.0.4"
   }
 }
