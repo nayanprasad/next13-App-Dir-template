@@ -9,6 +9,8 @@
     "lint": "next lint",
     "postinstall": "husky install",
     "lint-staged": "lint-staged",
+    "prepush": "pnpm run lint && pnpm run build",
+    "prepare": "husky install",
     "fix": "eslint --fix .",
     "test": "start-server-and-test dev 3000 cypress:open",
     "cypress:open": "cypress open"

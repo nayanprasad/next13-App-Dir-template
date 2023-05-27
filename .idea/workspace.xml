@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c2e2155-4fc5-4c74-9874-f70b418e4c3a" name="Changes" comment="testing..." />
+    <list default="true" id="9c2e2155-4fc5-4c74-9874-f70b418e4c3a" name="Changes" comment="configured cypress testing" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,10 +39,11 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;js.linters.configure.manually.selectedeslint&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/nayanprasad/Documents/WedD/next13-App-Dir-template&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;/home/nayanprasad/Documents/WedD/next13-App-Dir-template/node_modules/eslint&quot;,
     &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
@@ -58,7 +59,7 @@
       </map>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.test">
     <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -69,8 +70,19 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.test" />
         <item itemvalue="npm.dev" />
       </list>
     </recent_temporary>
@@ -85,6 +97,7 @@
       <updated>1683907925059</updated>
       <workItem from="1683907929309" duration="6950000" />
       <workItem from="1683993290409" duration="1138000" />
+      <workItem from="1684005410095" duration="5609000" />
     </task>
     <task id="LOCAL-00001" summary="removed unnecessary files">
       <created>1683910258733</created>
@@ -275,7 +288,126 @@
       <option name="project" value="LOCAL" />
       <updated>1683915834882</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="fix some error">
+      <created>1684005769952</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1684005769952</updated>
+    </task>
+    <task id="LOCAL-00029" summary="tested error page">
+      <created>1684006177828</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1684006177828</updated>
+    </task>
+    <task id="LOCAL-00030" summary="testing...">
+      <created>1684006345719</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1684006345719</updated>
+    </task>
+    <task id="LOCAL-00031" summary="testing...">
+      <created>1684006349104</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1684006349104</updated>
+    </task>
+    <task id="LOCAL-00032" summary="updated next config">
+      <created>1684009224367</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1684009224367</updated>
+    </task>
+    <task id="LOCAL-00033" summary="added typescript config next config">
+      <created>1684009247698</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1684009247698</updated>
+    </task>
+    <task id="LOCAL-00034" summary="added auto refresh config next config">
+      <created>1684009314539</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1684009314539</updated>
+    </task>
+    <task id="LOCAL-00035" summary="test">
+      <created>1684011723924</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1684011723924</updated>
+    </task>
+    <task id="LOCAL-00036" summary="test">
+      <created>1684011731750</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1684011731750</updated>
+    </task>
+    <task id="LOCAL-00037" summary="test">
+      <created>1684011736908</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1684011736908</updated>
+    </task>
+    <task id="LOCAL-00038" summary="test">
+      <created>1684011751514</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1684011751514</updated>
+    </task>
+    <task id="LOCAL-00039" summary="test">
+      <created>1684011759712</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1684011759712</updated>
+    </task>
+    <task id="LOCAL-00040" summary="test">
+      <created>1684011791502</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1684011791502</updated>
+    </task>
+    <task id="LOCAL-00041" summary="test">
+      <created>1684011795676</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1684011795676</updated>
+    </task>
+    <task id="LOCAL-00042" summary="test">
+      <created>1684011807678</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1684011807678</updated>
+    </task>
+    <task id="LOCAL-00043" summary="fixed @typescript-eslint/no-namespace error">
+      <created>1684011884383</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1684011884383</updated>
+    </task>
+    <task id="LOCAL-00044" summary="configured cypress testing">
+      <created>1684014277822</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1684014277823</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -307,7 +439,16 @@
     <MESSAGE value="added new husky" />
     <MESSAGE value="." />
     <MESSAGE value="husky updated" />
+    <MESSAGE value="fix some error" />
+    <MESSAGE value="tested error page" />
     <MESSAGE value="testing..." />
-    <option name="LAST_COMMIT_MESSAGE" value="testing..." />
+    <MESSAGE value="updated next config" />
+    <MESSAGE value="added typescript config next config" />
+    <MESSAGE value="added auto refresh config next config" />
+    <MESSAGE value="added cypress" />
+    <MESSAGE value="test" />
+    <MESSAGE value="fixed @typescript-eslint/no-namespace error" />
+    <MESSAGE value="configured cypress testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="configured cypress testing" />
   </component>
 </project>
