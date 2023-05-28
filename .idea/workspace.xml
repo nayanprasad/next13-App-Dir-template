@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c2e2155-4fc5-4c74-9874-f70b418e4c3a" name="Changes" comment="configured cypress testing" />
+    <list default="true" id="9c2e2155-4fc5-4c74-9874-f70b418e4c3a" name="Changes" comment="added .idea in gitignore">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -98,6 +100,7 @@
       <workItem from="1683907929309" duration="6950000" />
       <workItem from="1683993290409" duration="1138000" />
       <workItem from="1684005410095" duration="5609000" />
+      <workItem from="1685217942189" duration="403000" />
     </task>
     <task id="LOCAL-00001" summary="removed unnecessary files">
       <created>1683910258733</created>
@@ -407,7 +410,28 @@
       <option name="project" value="LOCAL" />
       <updated>1684014277823</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="husky configured in standard manner">
+      <created>1685218197965</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1685218197965</updated>
+    </task>
+    <task id="LOCAL-00046" summary="removed build error">
+      <created>1685218306756</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1685218306756</updated>
+    </task>
+    <task id="LOCAL-00047" summary="added .idea in gitignore">
+      <created>1685218324467</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1685218324467</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -426,7 +450,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="removed unnecessary files" />
     <MESSAGE value="addes eslint" />
     <MESSAGE value="addes loading" />
     <MESSAGE value="addes notfound page" />
@@ -449,6 +472,9 @@
     <MESSAGE value="test" />
     <MESSAGE value="fixed @typescript-eslint/no-namespace error" />
     <MESSAGE value="configured cypress testing" />
-    <option name="LAST_COMMIT_MESSAGE" value="configured cypress testing" />
+    <MESSAGE value="husky configured in standard manner" />
+    <MESSAGE value="removed build error" />
+    <MESSAGE value="added .idea in gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="added .idea in gitignore" />
   </component>
 </project>
